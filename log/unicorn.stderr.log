@@ -1,0 +1,1119 @@
+I, [2014-05-09T11:54:17.733156 #19271]  INFO -- : listening on addr=/home/hong/project/sinat/tmp/sockets/unicorn.sock fd=7
+I, [2014-05-09T11:54:17.733451 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:54:17.746974 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:54:17.748009 #19293]  INFO -- : worker=0 spawned pid=19293
+I, [2014-05-09T11:54:17.748332 #19293]  INFO -- : Refreshing Gem list
+I, [2014-05-09T11:54:17.748308 #19271]  INFO -- : master process ready
+I, [2014-05-09T11:54:17.749983 #19296]  INFO -- : worker=1 spawned pid=19296
+I, [2014-05-09T11:54:17.750596 #19296]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:22.073325 #19293] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:142:in `start'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:22.085219 #19271] ERROR -- : reaped #<Process::Status: pid 19293 exit 1> worker=0
+I, [2014-05-09T11:54:22.085390 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:54:22.087200 #19307]  INFO -- : worker=0 spawned pid=19307
+I, [2014-05-09T11:54:22.087467 #19307]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:22.242684 #19296] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:142:in `start'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:22.253193 #19271] ERROR -- : reaped #<Process::Status: pid 19296 exit 1> worker=1
+I, [2014-05-09T11:54:22.253357 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:54:22.255194 #19310]  INFO -- : worker=1 spawned pid=19310
+I, [2014-05-09T11:54:22.255448 #19310]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:26.232418 #19310] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:26.240723 #19271] ERROR -- : reaped #<Process::Status: pid 19310 exit 1> worker=1
+I, [2014-05-09T11:54:26.240912 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:54:26.242745 #19321]  INFO -- : worker=1 spawned pid=19321
+I, [2014-05-09T11:54:26.243024 #19321]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:26.640091 #19307] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:26.649160 #19271] ERROR -- : reaped #<Process::Status: pid 19307 exit 1> worker=0
+I, [2014-05-09T11:54:26.649325 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:54:26.651057 #19326]  INFO -- : worker=0 spawned pid=19326
+I, [2014-05-09T11:54:26.651305 #19326]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:30.678423 #19326] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:30.687946 #19271] ERROR -- : reaped #<Process::Status: pid 19326 exit 1> worker=0
+I, [2014-05-09T11:54:30.688155 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:54:30.690034 #19337]  INFO -- : worker=0 spawned pid=19337
+I, [2014-05-09T11:54:30.690342 #19337]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:30.783501 #19321] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:30.791765 #19271] ERROR -- : reaped #<Process::Status: pid 19321 exit 1> worker=1
+I, [2014-05-09T11:54:30.791938 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:54:30.793982 #19340]  INFO -- : worker=1 spawned pid=19340
+I, [2014-05-09T11:54:30.794243 #19340]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:34.833263 #19340] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:34.841226 #19271] ERROR -- : reaped #<Process::Status: pid 19340 exit 1> worker=1
+I, [2014-05-09T11:54:34.841473 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:54:34.843449 #19351]  INFO -- : worker=1 spawned pid=19351
+I, [2014-05-09T11:54:34.843729 #19351]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:35.249393 #19337] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:35.254362 #19271] ERROR -- : reaped #<Process::Status: pid 19337 exit 1> worker=0
+I, [2014-05-09T11:54:35.254548 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:54:35.256327 #19354]  INFO -- : worker=0 spawned pid=19354
+I, [2014-05-09T11:54:35.256590 #19354]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:39.399451 #19351] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:39.406257 #19271] ERROR -- : reaped #<Process::Status: pid 19351 exit 1> worker=1
+I, [2014-05-09T11:54:39.406483 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:54:39.408245 #19366]  INFO -- : worker=1 spawned pid=19366
+I, [2014-05-09T11:54:39.408527 #19366]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:39.765590 #19354] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:39.770572 #19271] ERROR -- : reaped #<Process::Status: pid 19354 exit 1> worker=0
+I, [2014-05-09T11:54:39.770765 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:54:39.772473 #19371]  INFO -- : worker=0 spawned pid=19371
+I, [2014-05-09T11:54:39.772721 #19371]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:43.530556 #19366] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:43.535644 #19271] ERROR -- : reaped #<Process::Status: pid 19366 exit 1> worker=1
+I, [2014-05-09T11:54:43.535827 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:54:43.538802 #19380]  INFO -- : worker=1 spawned pid=19380
+I, [2014-05-09T11:54:43.539080 #19380]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:44.372098 #19371] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:44.377465 #19271] ERROR -- : reaped #<Process::Status: pid 19371 exit 1> worker=0
+I, [2014-05-09T11:54:44.377634 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:54:44.379198 #19385]  INFO -- : worker=0 spawned pid=19385
+I, [2014-05-09T11:54:44.379447 #19385]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:48.591780 #19380] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:48.601098 #19271] ERROR -- : reaped #<Process::Status: pid 19380 exit 1> worker=1
+I, [2014-05-09T11:54:48.601283 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:54:48.603042 #19414]  INFO -- : worker=1 spawned pid=19414
+I, [2014-05-09T11:54:48.603303 #19414]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:49.538938 #19385] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:49.549123 #19271] ERROR -- : reaped #<Process::Status: pid 19385 exit 1> worker=0
+I, [2014-05-09T11:54:49.549284 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:54:49.551835 #19419]  INFO -- : worker=0 spawned pid=19419
+I, [2014-05-09T11:54:49.552107 #19419]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:53.720546 #19414] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:53.729197 #19271] ERROR -- : reaped #<Process::Status: pid 19414 exit 1> worker=1
+I, [2014-05-09T11:54:53.729399 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:54:53.731171 #19430]  INFO -- : worker=1 spawned pid=19430
+I, [2014-05-09T11:54:53.731429 #19430]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:54.185223 #19419] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:54.192009 #19271] ERROR -- : reaped #<Process::Status: pid 19419 exit 1> worker=0
+I, [2014-05-09T11:54:54.192178 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:54:54.193917 #19433]  INFO -- : worker=0 spawned pid=19433
+I, [2014-05-09T11:54:54.194171 #19433]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:57.876258 #19430] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:57.889137 #19271] ERROR -- : reaped #<Process::Status: pid 19430 exit 1> worker=1
+I, [2014-05-09T11:54:57.889324 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:54:57.891835 #19444]  INFO -- : worker=1 spawned pid=19444
+I, [2014-05-09T11:54:57.892103 #19444]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:54:58.648946 #19433] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:54:58.660953 #19271] ERROR -- : reaped #<Process::Status: pid 19433 exit 1> worker=0
+I, [2014-05-09T11:54:58.661143 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:54:58.666863 #19449]  INFO -- : worker=0 spawned pid=19449
+I, [2014-05-09T11:54:58.667162 #19449]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:02.463889 #19444] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:02.477153 #19271] ERROR -- : reaped #<Process::Status: pid 19444 exit 1> worker=1
+I, [2014-05-09T11:55:02.477339 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:02.480134 #19459]  INFO -- : worker=1 spawned pid=19459
+I, [2014-05-09T11:55:02.480417 #19459]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:03.157239 #19449] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:03.162500 #19271] ERROR -- : reaped #<Process::Status: pid 19449 exit 1> worker=0
+I, [2014-05-09T11:55:03.167700 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:03.169474 #19464]  INFO -- : worker=0 spawned pid=19464
+I, [2014-05-09T11:55:03.169728 #19464]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:06.859172 #19459] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:06.864413 #19271] ERROR -- : reaped #<Process::Status: pid 19459 exit 1> worker=1
+I, [2014-05-09T11:55:06.864594 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:06.866170 #19475]  INFO -- : worker=1 spawned pid=19475
+I, [2014-05-09T11:55:06.866427 #19475]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:08.320281 #19464] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:08.325856 #19271] ERROR -- : reaped #<Process::Status: pid 19464 exit 1> worker=0
+I, [2014-05-09T11:55:08.326154 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:08.329149 #19480]  INFO -- : worker=0 spawned pid=19480
+I, [2014-05-09T11:55:08.329440 #19480]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:11.747390 #19475] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:11.752575 #19271] ERROR -- : reaped #<Process::Status: pid 19475 exit 1> worker=1
+I, [2014-05-09T11:55:11.752758 #19271]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:11.755377 #19491]  INFO -- : worker=1 spawned pid=19491
+I, [2014-05-09T11:55:11.755655 #19491]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:13.182841 #19480] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:13.187982 #19271] ERROR -- : reaped #<Process::Status: pid 19480 exit 1> worker=0
+I, [2014-05-09T11:55:13.188168 #19271]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:13.189886 #19496]  INFO -- : worker=0 spawned pid=19496
+I, [2014-05-09T11:55:13.190141 #19496]  INFO -- : Refreshing Gem list
+I, [2014-05-09T11:55:14.473634 #19271]  INFO -- : reaped #<Process::Status: pid 19491 exit 0> worker=1
+I, [2014-05-09T11:55:14.473889 #19271]  INFO -- : reaped #<Process::Status: pid 19496 exit 0> worker=0
+I, [2014-05-09T11:55:14.474125 #19271]  INFO -- : master complete
+I, [2014-05-09T11:55:23.100244 #19535]  INFO -- : unlinking existing socket=/home/hong/project/sinat/tmp/sockets/unicorn.sock
+I, [2014-05-09T11:55:23.100489 #19535]  INFO -- : listening on addr=/home/hong/project/sinat/tmp/sockets/unicorn.sock fd=7
+I, [2014-05-09T11:55:23.100600 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:23.101562 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:23.102288 #19535]  INFO -- : master process ready
+I, [2014-05-09T11:55:23.102313 #19539]  INFO -- : worker=0 spawned pid=19539
+I, [2014-05-09T11:55:23.103243 #19542]  INFO -- : worker=1 spawned pid=19542
+I, [2014-05-09T11:55:23.103443 #19542]  INFO -- : Refreshing Gem list
+I, [2014-05-09T11:55:23.103601 #19539]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:27.983697 #19542] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:142:in `start'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:27.989096 #19535] ERROR -- : reaped #<Process::Status: pid 19542 exit 1> worker=1
+I, [2014-05-09T11:55:27.989275 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:27.990962 #19555]  INFO -- : worker=1 spawned pid=19555
+I, [2014-05-09T11:55:27.991224 #19555]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:28.033632 #19539] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:142:in `start'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:28.040507 #19535] ERROR -- : reaped #<Process::Status: pid 19539 exit 1> worker=0
+I, [2014-05-09T11:55:28.040667 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:28.042251 #19558]  INFO -- : worker=0 spawned pid=19558
+I, [2014-05-09T11:55:28.042522 #19558]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:32.216985 #19555] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:32.222505 #19535] ERROR -- : reaped #<Process::Status: pid 19555 exit 1> worker=1
+I, [2014-05-09T11:55:32.222727 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:32.224693 #19582]  INFO -- : worker=1 spawned pid=19582
+I, [2014-05-09T11:55:32.225090 #19582]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:32.660543 #19558] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:32.668592 #19535] ERROR -- : reaped #<Process::Status: pid 19558 exit 1> worker=0
+I, [2014-05-09T11:55:32.668766 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:32.670515 #19585]  INFO -- : worker=0 spawned pid=19585
+I, [2014-05-09T11:55:32.670773 #19585]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:36.405711 #19582] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:36.410912 #19535] ERROR -- : reaped #<Process::Status: pid 19582 exit 1> worker=1
+I, [2014-05-09T11:55:36.411087 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:36.412841 #19610]  INFO -- : worker=1 spawned pid=19610
+I, [2014-05-09T11:55:36.413161 #19610]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:37.418206 #19585] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:37.436207 #19535] ERROR -- : reaped #<Process::Status: pid 19585 exit 1> worker=0
+I, [2014-05-09T11:55:37.436399 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:37.439348 #19615]  INFO -- : worker=0 spawned pid=19615
+I, [2014-05-09T11:55:37.439639 #19615]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:40.554916 #19610] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:40.560061 #19535] ERROR -- : reaped #<Process::Status: pid 19610 exit 1> worker=1
+I, [2014-05-09T11:55:40.560243 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:40.561940 #19657]  INFO -- : worker=1 spawned pid=19657
+I, [2014-05-09T11:55:40.562226 #19657]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:42.122200 #19615] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:42.128381 #19535] ERROR -- : reaped #<Process::Status: pid 19615 exit 1> worker=0
+I, [2014-05-09T11:55:42.128584 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:42.130255 #19673]  INFO -- : worker=0 spawned pid=19673
+I, [2014-05-09T11:55:42.130564 #19673]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:44.727092 #19657] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:44.732244 #19535] ERROR -- : reaped #<Process::Status: pid 19657 exit 1> worker=1
+I, [2014-05-09T11:55:44.732421 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:44.734233 #19682]  INFO -- : worker=1 spawned pid=19682
+I, [2014-05-09T11:55:44.734523 #19682]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:46.661058 #19673] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:46.674138 #19535] ERROR -- : reaped #<Process::Status: pid 19673 exit 1> worker=0
+I, [2014-05-09T11:55:46.674324 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:46.676112 #19701]  INFO -- : worker=0 spawned pid=19701
+I, [2014-05-09T11:55:46.676383 #19701]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:49.307005 #19682] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:49.312126 #19535] ERROR -- : reaped #<Process::Status: pid 19682 exit 1> worker=1
+I, [2014-05-09T11:55:49.312315 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:49.317943 #19710]  INFO -- : worker=1 spawned pid=19710
+I, [2014-05-09T11:55:49.320618 #19710]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:50.813103 #19701] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:50.824001 #19535] ERROR -- : reaped #<Process::Status: pid 19701 exit 1> worker=0
+I, [2014-05-09T11:55:50.824224 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:50.827301 #19733]  INFO -- : worker=0 spawned pid=19733
+I, [2014-05-09T11:55:50.827733 #19733]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:54.064536 #19710] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:54.072152 #19535] ERROR -- : reaped #<Process::Status: pid 19710 exit 1> worker=1
+I, [2014-05-09T11:55:54.072336 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:54.074048 #19776]  INFO -- : worker=1 spawned pid=19776
+I, [2014-05-09T11:55:54.074311 #19776]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:55.248268 #19733] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:55.253368 #19535] ERROR -- : reaped #<Process::Status: pid 19733 exit 1> worker=0
+I, [2014-05-09T11:55:55.253564 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:55.255146 #19781]  INFO -- : worker=0 spawned pid=19781
+I, [2014-05-09T11:55:55.255404 #19781]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:58.821778 #19776] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:58.828445 #19535] ERROR -- : reaped #<Process::Status: pid 19776 exit 1> worker=1
+I, [2014-05-09T11:55:58.828625 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:55:58.830685 #19792]  INFO -- : worker=1 spawned pid=19792
+I, [2014-05-09T11:55:58.830968 #19792]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:55:59.612761 #19781] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:55:59.618183 #19535] ERROR -- : reaped #<Process::Status: pid 19781 exit 1> worker=0
+I, [2014-05-09T11:55:59.618343 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:55:59.619894 #19797]  INFO -- : worker=0 spawned pid=19797
+I, [2014-05-09T11:55:59.620140 #19797]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:56:03.640679 #19792] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:56:03.646644 #19535] ERROR -- : reaped #<Process::Status: pid 19792 exit 1> worker=1
+I, [2014-05-09T11:56:03.646838 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:56:03.648617 #19806]  INFO -- : worker=1 spawned pid=19806
+I, [2014-05-09T11:56:03.648884 #19806]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:56:03.690208 #19797] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:56:03.700374 #19535] ERROR -- : reaped #<Process::Status: pid 19797 exit 1> worker=0
+I, [2014-05-09T11:56:03.700539 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:56:03.702274 #19811]  INFO -- : worker=0 spawned pid=19811
+I, [2014-05-09T11:56:03.702530 #19811]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:56:08.180125 #19806] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:56:08.189194 #19535] ERROR -- : reaped #<Process::Status: pid 19806 exit 1> worker=1
+I, [2014-05-09T11:56:08.189377 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:56:08.191117 #19824]  INFO -- : worker=1 spawned pid=19824
+I, [2014-05-09T11:56:08.191380 #19824]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:56:08.698680 #19811] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:56:08.706338 #19535] ERROR -- : reaped #<Process::Status: pid 19811 exit 1> worker=0
+I, [2014-05-09T11:56:08.706502 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:56:08.709561 #19827]  INFO -- : worker=0 spawned pid=19827
+I, [2014-05-09T11:56:08.709827 #19827]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:56:13.209226 #19824] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:56:13.222599 #19535] ERROR -- : reaped #<Process::Status: pid 19824 exit 1> worker=1
+I, [2014-05-09T11:56:13.222815 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:56:13.226420 #19840]  INFO -- : worker=1 spawned pid=19840
+I, [2014-05-09T11:56:13.226763 #19840]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:56:14.629122 #19827] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:56:14.637556 #19535] ERROR -- : reaped #<Process::Status: pid 19827 exit 1> worker=0
+I, [2014-05-09T11:56:14.637782 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:56:14.639685 #19845]  INFO -- : worker=0 spawned pid=19845
+I, [2014-05-09T11:56:14.640012 #19845]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:56:19.775894 #19840] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:56:19.783438 #19535] ERROR -- : reaped #<Process::Status: pid 19840 exit 1> worker=1
+I, [2014-05-09T11:56:19.783653 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:56:19.785765 #19859]  INFO -- : worker=1 spawned pid=19859
+I, [2014-05-09T11:56:19.786127 #19859]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:56:20.224549 #19845] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:56:20.230952 #19535] ERROR -- : reaped #<Process::Status: pid 19845 exit 1> worker=0
+I, [2014-05-09T11:56:20.231166 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:56:20.234778 #19878]  INFO -- : worker=0 spawned pid=19878
+I, [2014-05-09T11:56:20.235102 #19878]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:56:25.644127 #19859] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:56:25.652533 #19535] ERROR -- : reaped #<Process::Status: pid 19859 exit 1> worker=1
+I, [2014-05-09T11:56:25.652760 #19535]  INFO -- : worker=1 spawning...
+I, [2014-05-09T11:56:25.655933 #19899]  INFO -- : worker=1 spawned pid=19899
+I, [2014-05-09T11:56:25.656314 #19899]  INFO -- : Refreshing Gem list
+E, [2014-05-09T11:56:27.094122 #19878] ERROR -- : uninitialized constant MyApp (NameError)
+config.ru:8:in `block in <main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+config.ru:1:in `new'
+config.ru:1:in `<main>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `eval'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn.rb:48:in `block in builder'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `call'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:722:in `build_app!'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:595:in `init_worker_process'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:615:in `worker_loop'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:500:in `spawn_missing_workers'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:511:in `maintain_worker_count'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/lib/unicorn/http_server.rb:277:in `join'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/gems/unicorn-4.6.3/bin/unicorn:126:in `<top (required)>'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `load'
+/home/hong/.rvm/gems/ruby-1.9.3-p0/bin/unicorn:19:in `<main>'
+E, [2014-05-09T11:56:27.101354 #19535] ERROR -- : reaped #<Process::Status: pid 19878 exit 1> worker=0
+I, [2014-05-09T11:56:27.101579 #19535]  INFO -- : worker=0 spawning...
+I, [2014-05-09T11:56:27.105317 #19904]  INFO -- : worker=0 spawned pid=19904
+I, [2014-05-09T11:56:27.105661 #19904]  INFO -- : Refreshing Gem list
+I, [2014-05-09T11:56:29.594656 #19535]  INFO -- : reaped #<Process::Status: pid 19899 exit 0> worker=1
+I, [2014-05-09T11:56:29.594919 #19535]  INFO -- : reaped #<Process::Status: pid 19904 exit 0> worker=0
+I, [2014-05-09T11:56:29.595152 #19535]  INFO -- : master complete
