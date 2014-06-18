@@ -1,0 +1,9 @@
+2014-06-17 17:01:02 +0800--*ImageUpload error: undefined method `asset_thumb_origin_sssss' for #<Asset:0x9328878>
+2014-06-17 17:01:31 +0800--*ImageUpload error: undefined method `asset_thumb_origin_sssss' for #<Asset:0x9448974>
+2014-06-17 17:03:02 +0800--*ImageUpload error: undefined method `asset_thumb_origin_sssss' for #<Asset:0x9ff4ea8>
+2014-06-18 15:32:09 +0800--*ImageUpload error
+2014-06-18 15:34:53 +0800--*ImageUpload error
+2014-06-18 15:35:35 +0800--*ImageUpload error
+2014-06-18 15:35:47 +0800--*ImageUpload error
+2014-06-18 15:35:57 +0800--*ImageUpload error
+2014-06-18 15:39:43 +0800--* Test resque debug

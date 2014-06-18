@@ -7,4 +7,6 @@ development:
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGOHQ_URL'] %>
+      database: redstore_dev
+      hosts:
+        - localhost:27017

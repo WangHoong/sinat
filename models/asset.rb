@@ -1,7 +1,8 @@
+require 'rubygems'
 require 'mongoid'
 require 'sinatra'
 require "sinatra/config_file"
-
+require "bson"
 class Asset  
   include Mongoid::Document
  
@@ -153,7 +154,18 @@ class Asset
   set_callback :save, :before, :set_updated_at
   set_callback :create, :before, :set_created_at
     
-  scope :recent,  desc(:created_on)
+
+  before_destroy  :delete_for_asset_files
+
+  scope :asset_order,	 	where(:asset_type=> ASSET_TYPE[:item_home])
+  scope :recent,    		desc(:created_on)
+  scope :order_b,			asc(:order)
+  scope :asset_art,			where(:asset_type=> ASSET_TYPE[:art])
+  scope :asset_attach,		where(:asset_type=> ASSET_TYPE[:material])
+  scope :attachments, where(:is_attach=>1)
+  scope :noattach , where(:is_attach=>nil)
+
+
   
   def set_created_at
         self.created_on = Time.now.to_i if !created_on
@@ -439,7 +451,7 @@ class Asset
       unless File.exists?(path) or File.symlink?(path)
         FileUtils.mkdir_p(path)
       end
-      bson_id =  Moped::BSON::ObjectId.new
+      bson_id =  BSON::ObjectId.new
       #文件名称
       new_file_name_with_type = "#{bson_id}." + self.img_type
       file_path = "#{new_name_file}/" + new_file_name_with_type
@@ -469,12 +481,230 @@ class Asset
     end #end begin
   end
 
+#生成缩略图
+def asset_resize_thumb(image,resize,type,user_name=nil,theme_name=nil)
+    begin     
+      file_sort = 'tf'
+      #===文件路径的处理 start =====#
+      file_type = self.img_type
+      new_name_file = "#{file_sort}/" + self.generate_time(self.created_on)
+      #文件路径
+      image_root = self.asset_type_path(file_sort)
+      path = image_root + "#{new_name_file}"
+      #目录是否存在
+      unless File.exists?(path) or File.symlink?(path)
+        FileUtils.mkdir_p(path)
+      end
+      bson_id =  BSON::ObjectId.new
+      #文件名称
+      new_file_name_with_type = "#{bson_id}." + file_type
+      file_path = "#{new_name_file}/" + new_file_name_with_type
+      #文件路径
+      file_name = image_root + file_path
+     p file_name
+      #=========file_name end====
+      if resize.class == Array
+        if image[:width]<=image[:height]
+          image.combine_options do |img|
+            #img.resize "#{resize_s[0]}x#{resize_s[1]}!"
+            #img.quality 100
+            img.resize "#{resize[0]}x"
+            img.quality "90"
+            img.gravity "center"
+            img.crop  "#{resize[0]}x#{resize[1]}+0+0"
+          end
+        else
+          image.combine_options do |img|
+            img.resize "x#{resize[1]}"
+            img.quality "90"
+            img.gravity "center"
+            img.crop  "#{resize[0]}x#{resize[1]}+0+0"
+          end
+        end
+      elsif self.asset_type  == ASSET_TYPE[:top_banner] and resize == '1180'
+        w = image[:width]
+        limit_w = 1300
+        if w <= limit_w
+          image.combine_options do |img|
+            img.quality "90"
+            img.crop "#{w}x450+0+0"
+          end
+        else
+          start_x= (w-limit_w)/2
+          image.combine_options do |img|
+            img.quality "90"
+            img.crop "#{limit_w}x450+#{start_x}+0"
+          end
+        end
+      else
+        image.combine_options do |img|
+          if resize.include?('x')
+            img.resize  "#{resize}"
+          else
+            img.resize  "#{resize}x>"
+          end
+          if type == 2 
+            img.quality '90'
+          else
+            img.quality '100'
+          end
+        end
+      end
+  
+      if self.water_mark == WATER_MARK[:ok] and resize == '740'
+        #获取水印图片
+        water_mark_pic=File.join(PADRINO_ROOT,Settings.water_mark['pic_path'],Settings.water_mark["pic_name"])
+        #获取水印文字字体
+        water_mark_font=File.join(PADRINO_ROOT,Settings.water_mark['font_path'],Settings.water_mark["font_name"])
+        #获取其他文字信息
+        water_font_author=Settings.water_mark["font_author"]
+        water_font_url=Settings.water_mark["font_url"]
+        water_font_size=Settings.water_mark["font_size"]
+        water_font_color=Settings.water_mark["font_color"]
+        #水印图片
+        water_pic=MiniMagick::Image.open(water_mark_pic)
+        #水印图片加文字
+        water_pic.combine_options do |img|
+          img.font "#{water_mark_font}"
+          img.pointsize "#{water_font_size}"
+          img.fill "#{water_font_color}"
+          img.gravity "west"
+          img.draw "text 38,-8 '@ #{Rack::Utils.escape_html(user_name)}" if user_name.present?
+        end
+        #将加文字的水印图片添加到用户图片上
+        result = image.composite(water_pic,image[:format]) do |img|
+          #水印要100%打印上去
+          img.quality "100"
+          #img.gravity "east"
+          img.gravity "SouthEast"
+          img.geometry "+0+10"
+        end
+        # 添加雪花水印
+        if theme_name.present?         
+          water_mark_xuehua = File.join(PADRINO_ROOT,Settings.water_mark['pic_path'],Settings.water_mark["xue_hua"])
+          water_xuehua=MiniMagick::Image.open(water_mark_xuehua)
+          result = result.composite(water_xuehua,image[:format]) do |img|
+            #水印要100%打印上去
+            img.quality "100"
+            img.gravity "SouthWest"
+            img.geometry "+0+10"
+          end
+        end
+        result.write file_name
+
+      else
+        image.write file_name
+      end
+      #赋予读权限
+      FileUtils.chmod(0664, file_name)
+      #保存记录
+      asset_file = AssetFile.new(:asset_id=>self.id,:stuff_id=>self.stuff_id,:size=>image[:size],:width=>image[:width],:height=>image[:height],:file_path=>file_path,:type=>type)
+      asset_file.save
+
+    rescue => e
+      puts "** [Error] open file error: #{e}"
+    end #end begin
+  end
+
+
+#小组和展览裁剪图
+  def thumb_crop_save(resize,type,w,h,x1,y1)
+    begin
+      thumb_big = self.asset_thumb_big
+      #展览的裁剪
+      if thumb_big
+        big_path = self.asset_type_path('tf') + thumb_big.file_path
+        image_mini = MiniMagick::Image.open(big_path)
+      else
+        #小组头像裁剪
+        thumb_origin = self.asset_thumb_origin
+        origin_path = self.asset_type_path('sf') + thumb_origin.file_path
+        image_mini = MiniMagick::Image.open(origin_path)
+      end
+
+      image_mini.combine_options do |img|
+        img.quality "100"
+        img.crop "#{w}x#{h}+#{x1}+#{y1}"
+      end
+      image_mini.combine_options do |img|
+        img.resize "#{resize}"
+        img.quality "100"
+      end
+      #生成目录
+      file_sort = 'tf'
+      file_type = self.img_type
+      new_name_file = "#{file_sort}/" + self.generate_time(self.created_on)
+      #文件路径
+      image_root = self.asset_type_path(file_sort)
+      path = image_root + "#{new_name_file}"
+      #目录是否存在
+      unless File.exists?(path) or File.symlink?(path)
+        FileUtils.mkdir_p(path)
+      end
+      bson_id =  BSON::ObjectId.new
+      #文件名称
+      new_file_name_with_type = "#{bson_id}." + file_type
+      file_path = "#{new_name_file}/" + new_file_name_with_type
+      #文件路径
+      file_name = image_root + file_path
+      #=========file_name end====
+
+      #删除已经存在的图片
+      asset_file = self.asset_files.where(:type=>type).first
+      if asset_file.present?
+        f = image_root + asset_file.file_path
+        File.delete(f)  if File.exist?(f)
+        asset_file.destroy
+      end
+
+      if image_mini.write file_name
+        #赋予读权限
+        FileUtils.chmod(0664, file_name)
+        #保存大图
+        asset_file = AssetFile.new(:asset_id=>self.id,:stuff_id=>self.stuff_id,:size=>image_mini[:size],:width=>image_mini[:width],:height=>image_mini[:height],:file_path=>file_path,:type=>type)
+        if asset_file.save
+          return true
+        else
+          return false
+        end
+      end
+    rescue => e
+      puts "** [Error] open file error: #{e}"
+    end #end begin
+
+  end
+
+
+
   def generate_time(datetime)
     date = Time.at(datetime.to_i).strftime("%y%m%d")
     return "#{date}/#{datetime.to_i/600}"
   end
 
+  private
+  
+  def delete_for_asset_files
+    if self.asset_files.present?
+      self.asset_files.each do |f|
+        path = f.file_path
+        if f.type == 0
+          image_path = self.asset_type_path('sf')
+        else
+          image_path = self.asset_type_path('tf')
+        end
+        #删除asset_file 数据
+        f.destroy
+        file_path = image_path + path
+        #删除图片任务
+        Resque.enqueue(Jobs::DelAssetFile,{:file_path=>file_path})
+      
+      end
+    end
+  end
+
  
+
+
 end
 
 

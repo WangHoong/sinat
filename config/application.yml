@@ -1,6 +1,5 @@
 development:
-
-   domain_images: 'http://localhost:4567/images'
+   domain_images: 'http://127.0.0.1:4567/images'
    attachment_format: ['pdf','PDF','zip','rar','doc','ppt','7z']
    #图片url
    cvart_url: '/storage/cvart-thumb/'
@@ -49,4 +48,51 @@ development:
    cvactive_path: '/cvasset/active/'
    cvgroup_path: '/cvasset/group/'
 production:
-   foo: production
+   domain_images: 'http://127.0.0.1:4567/images'
+   attachment_format: ['pdf','PDF','zip','rar','doc','ppt','7z']
+   #图片url
+   cvart_url: '/storage/cvart-thumb/'
+   cvidea_url: '/cvdata/cvidea-thumb/'
+   art_origin_url: '/storage/cvart-srcfile/'
+   stuff_origin_url: '/cvdata/cvidea-srcfile/'
+   cvavatar_url: '/storage/cvavatar/'
+   cvmedal_url: '/storage/medal/'
+   cvbloom_url: '/storage/bloom/'
+   cvtheme_url: '/storage/theme/'
+   cvtimestamp_url: '/storage/timestamp/'
+   cvpropvalue_url: '/cvdata/propvalue/'
+   cvchannel_url: '/cvdata/channel/'
+   cvalbum_url: '/cvdata/album/'
+   cvdict_url: '/cvdata/dict/'
+   cvitem_url: '/cvdata/item/'
+   cvattachment_url: '/cvdata/attachment/'
+   cvadvertisement_url: '/cvasset/advertisement/'
+   cvpicture_url: '/cvasset/picture/'
+   cvactive_url: '/cvasset/active/'
+   cvtopic_url: '/cvasset/topic/'
+   cvgroup_url: '/cvasset/group/'
+
+   #图片本地路径
+   #storage
+   cvavatar_path: '/storage/cvavatar/'
+   cvtheme_path: '/storage/theme/'
+   cvart_srcfile: '/storage/cvart-srcfile/'
+   cvart_thumb: '/storage/cvart-thumb/'
+   cvmedal_path: '/storage/medal/'
+   cvbloom_path: '/storage/bloom/'
+   cvtimestamp_path: '/storage/timestamp/'
+   #cvdata
+   cvidea_srcfile: '/cvdata/cvidea-srcfile/'
+   cvidea_thumb: '/cvdata/cvidea-thumb/'
+   cvchannel_path: '/cvdata/channel/'
+   cvalbum_path: '/cvdata/album/'
+   cvdict_path: '/cvdata/dict/'
+   cvpropvalue_path: '/cvdata/propvalue/'
+   cvattachment_path: '/cvdata/attachment/'
+   cvitem_path: '/cvdata/item/'
+   #cvasset
+   cvadvertisement_path: '/cvasset/advertisement/'
+   cvpicture_path: '/cvasset/picture/'
+   cvtopic_path: '/cvasset/topic/'
+   cvactive_path: '/cvasset/active/'
+   cvgroup_path: '/cvasset/group/'

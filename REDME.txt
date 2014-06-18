@@ -1,0 +1,6 @@
+resque work:
+bundle exec resque work -q upload -r ./job.rb 
+god -c bin/resque_asset.god
+
+
+

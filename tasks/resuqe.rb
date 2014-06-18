@@ -1,3 +1,5 @@
-require 'resque/tasks'
 require 'resque'
+require 'resque/tasks'
 
+ 
+ 

@@ -1,7 +1,6 @@
 require "rubygems"
-require "sinatra"
+#require "sinatra"
 
-require './app'
-require 'resque/server'
+require './app.rb'
 run Sinatra::Application
-
+#run ApplicationController

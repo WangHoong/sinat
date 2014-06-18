@@ -1,10 +1,6 @@
-# encoding: utf-8
 require 'resque'
-#MiniMagick.processor = :gm
-
-#  
-# 注：上传缩略图的任务
-#
+MiniMagick.processor = :gm
+ 
 module Jobs
   ##
   # 处理图片任务
@@ -12,21 +8,20 @@ module Jobs
   #
   class ImageUpload
     @queue = :image_upload
-    def self.perform(options={})
-      p '==============='
+    def self.perform(options={})      
       id = options["id"]
       return false unless id
       #获取asset
       asset = Asset.find(id)
+      
       return false unless asset
  
       begin
-        origin =  asset.asset_thumb_origin
+        origin =  asset.asset_thumb_origin    
         if origin.present?
           #读取原图
           origin_path = asset.asset_type_path("sf") + origin.file_path
           image = MiniMagick::Image.open(origin_path)
-
           #如果是gif图需要预先处理一下
           if image.mime_type=="image/gif"
             image.combine_options(:convert) do |img|
@@ -41,15 +36,14 @@ module Jobs
           image_info.merge!({"exif"=>exif_hash})
           #asset类型
           asset_type = Asset::ASSET_TYPE.rassoc(asset.asset_type).first.to_s
-
+          
           #====art stuff
           if %w(art stuff material).include?(asset_type)
-            set_format = Settings.attachment_format
+            set_format = Setting.settings.attachment_format
             unless  set_format.include?(asset.img_type)
               # 获取作者姓名
               user_name = options["user_name"]
-              user_name = Settings.water_mark["font_no_user"] unless user_name
-            
+              user_name = Setting.settings.water_mark["font_no_user"] unless user_name            
               theme_name = options['theme_name']
               # 生产大尺寸缩略图
               resize_b = '740'
@@ -196,9 +190,10 @@ module Jobs
           asset.update_attributes(image_info)
         end
       rescue => e
-        logger.warn("Make thumb and failed: #{e.message}.")
-		log = Logger.new(File.join(PADRINO_ROOT, Settings.resque_error_path))
-		log.debug "#{Time.now}--*ImageUpload error: #{e.message}"
+        puts e.message
+        #logger.warn("Make thumb and failed: #{e.message}.")
+	log = Logger.new(File.join('log/resque_error.log'))
+	log.debug "#{Time.now}--*ImageUpload error: #{e.message}"
       end
     end
   end # ImageMaker
@@ -211,9 +206,7 @@ module Jobs
         return false unless file_path
         File.delete(file_path)  if File.exist?(file_path)
       rescue => e
-        puts "** [Error] open file error: #{e}"
-		log = Logger.new(File.join(PADRINO_ROOT, Settings.resque_error_path))
-		log.debug "#{Time.now}--*DelAssetFile error: #{e.message}"
+        puts "** [Error] open file error: #{e}"		 
       end
     end
   end # DelAssetFile
