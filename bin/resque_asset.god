@@ -13,7 +13,7 @@ God.watch do |w|
     w.group    = "resque-asset"
     w.interval = 30.seconds
     w.env      = {}
-    w.start = "bundle exec resque work -q upload -r #{root}/job.rb"
+    w.start = "bundle exec resque work -q test_resque,image_upload,upload_ad_image -r #{root}/job.rb"
     w.pid_file = File.join("#{root}", "tmp/pids/resque-asset.#{num}.pid")
 
     w.behavior(:clean_pid_file)

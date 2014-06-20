@@ -553,14 +553,14 @@ def asset_resize_thumb(image,resize,type,user_name=nil,theme_name=nil)
   
       if self.water_mark == WATER_MARK[:ok] and resize == '740'
         #获取水印图片
-        water_mark_pic=File.join(PADRINO_ROOT,Settings.water_mark['pic_path'],Settings.water_mark["pic_name"])
+        water_mark_pic=File.join(PADRINO_ROOT,Setting.settings.water_mark['pic_path'],Setting.settings.water_mark["pic_name"])
         #获取水印文字字体
-        water_mark_font=File.join(PADRINO_ROOT,Settings.water_mark['font_path'],Settings.water_mark["font_name"])
+        water_mark_font=File.join(PADRINO_ROOT,Setting.settings.water_mark['font_path'],Setting.settings.water_mark["font_name"])
         #获取其他文字信息
-        water_font_author=Settings.water_mark["font_author"]
-        water_font_url=Settings.water_mark["font_url"]
-        water_font_size=Settings.water_mark["font_size"]
-        water_font_color=Settings.water_mark["font_color"]
+        water_font_author=Setting.settings.water_mark["font_author"]
+        water_font_url=Setting.settings.water_mark["font_url"]
+        water_font_size=Setting.settings.water_mark["font_size"]
+        water_font_color=Setting.settings.water_mark["font_color"]
         #水印图片
         water_pic=MiniMagick::Image.open(water_mark_pic)
         #水印图片加文字
@@ -581,7 +581,7 @@ def asset_resize_thumb(image,resize,type,user_name=nil,theme_name=nil)
         end
         # 添加雪花水印
         if theme_name.present?         
-          water_mark_xuehua = File.join(PADRINO_ROOT,Settings.water_mark['pic_path'],Settings.water_mark["xue_hua"])
+          water_mark_xuehua = File.join(PADRINO_ROOT,Setting.settings.water_mark['pic_path'],Setting.settings.water_mark["xue_hua"])
           water_xuehua=MiniMagick::Image.open(water_mark_xuehua)
           result = result.composite(water_xuehua,image[:format]) do |img|
             #水印要100%打印上去

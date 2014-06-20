@@ -1,4 +1,5 @@
 require 'resque'
+
 MiniMagick.processor = :gm
  
 module Jobs

@@ -47,6 +47,11 @@ development:
    cvtopic_path: '/cvasset/topic/'
    cvactive_path: '/cvasset/active/'
    cvgroup_path: '/cvasset/group/'
+
+   resque_server: 127.0.0.1:6379
+ 
+
+
 production:
    domain_images: 'http://127.0.0.1:4567/images'
    attachment_format: ['pdf','PDF','zip','rar','doc','ppt','7z']
@@ -96,3 +101,6 @@ production:
    cvtopic_path: '/cvasset/topic/'
    cvactive_path: '/cvasset/active/'
    cvgroup_path: '/cvasset/group/'
+
+   resque_server: 127.0.0.1:6379
+ 

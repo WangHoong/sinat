@@ -28,7 +28,11 @@ module Jobs
 
       begin         
         origin =  stuff_asset.asset_thumb_origin
-        if origin.present?         
+        if origin.present? 
+           #成功发布后，清空对应的缓存
+          key = 'block:'+position
+          Lgk.cache.delete(key)
+        
           origin_path =  stuff_asset.asset_type_path("sf") + origin.file_path
           #生成推荐尺寸
           if %w(home_art_slide home_idea_slide home_idea_slide_second home_art_slide_second).include?(position)
@@ -41,15 +45,13 @@ module Jobs
           resize_s = [125,100]
           asset_resize_ad_thumb(id,origin_path,resize_s,7)
      
-          #成功发布后，清空对应的缓存
-          key = 'block:'+position
-          Lgk.cache.delete(key)
+        
  
         end
       rescue => e
-        logger.warn("Make thumb and failed: #{e.message}.")
-		log = Logger.new(File.join(PADRINO_ROOT, Settings.resque_error_path))
-		log.debug "#{Time.now}--*UploadAdImage make thumb error: #{e.message}"
+          puts e.message
+	 log = Logger.new(File.join('log/resque_error.log'))
+	 log.debug "#{Time.now}--*UploadAdImage make thumb error: #{e.message}"
       end
     end
 
@@ -128,12 +130,12 @@ module Jobs
         end
       rescue => e
         puts "** [Error] open file error: #{e}"
-		log = Logger.new(File.join(PADRINO_ROOT, Settings.resque_error_path))
-		log.debug "#{Time.now}--*ImageWater open file error: #{e.message}"
+        log = Logger.new(File.join('log/resque_error.log'))
+	log.debug "#{Time.now}--*ImageWater open file error: #{e.message}"
       end #end begin
     end
 
-  end # ImageMaker
+  end #  
 
 
 

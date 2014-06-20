@@ -10,3 +10,9 @@ production:
       database: redstore_dev
       hosts:
         - localhost:27017
+test:
+  sessions:
+    default:
+      database: redstore_test
+      hosts:
+        - localhost:27017

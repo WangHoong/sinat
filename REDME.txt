@@ -1,6 +1,7 @@
 resque work:
 bundle exec resque work -q upload -r ./job.rb 
-god -c bin/resque_asset.god
+start_resque:   god -c bin/resque_asset.god
+stop_resque:  ps -ef | grep resque
 
 
 

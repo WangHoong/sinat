@@ -8,6 +8,8 @@ require './setting'
 require './application_helper'
 require 'rest-client'
 require 'resque'
+require "bson"
+require 'redis'
 
 #Models
 Dir[File.expand_path('models/*.rb', File.dirname(__FILE__))].each do |file|
@@ -20,13 +22,19 @@ Dir[File.expand_path('lib/jobs/*.rb', File.dirname(__FILE__))].each do |file|
 end
 Mongoid.load!("config/mongoid.yml")
 
+#Resque
 env = ENV['RACK_ENV'] || :development
 resque_config = YAML.load_file('config/resque.yml')
 Resque.redis = resque_config[env]
 
+#Redis
+host, port = Setting.settings.resque_server.split(':')
+$redis = Redis.new(:host => host || '127.0.0.1', :port => port || 6379, :thread_safe => true)
+
 #Views
 set :views, File.expand_path('../views', __FILE__)
 
+#Helpers
 helpers ApplicationHelper 
  
 
@@ -35,9 +43,11 @@ helpers ApplicationHelper
      @assets = Asset.all.limit(10)   
      asset = @assets.first
      #Resque.enqueue(Jobs::ImageUpload,{:id=>asset.id})  
-
-     Resque.enqueue(Jobs::Upload,{:id=>'dddd'})
-       
+     
+ #Resque.enqueue(Jobs::UploadAdImage,{:id=>asset.id,:asset_id=>asset.id,:position=>'stuff'})
+     
+     #Resque.enqueue(Jobs::TestResque,"Processed a job!")
+     
      erb :index
    end
 
