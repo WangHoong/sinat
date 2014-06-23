@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'sinatra'
+require 'sinatra/base'
 require "sinatra/config_file"
 require 'mongoid'
 require 'erb'
@@ -10,6 +10,7 @@ require 'rest-client'
 require 'resque'
 require "bson"
 require 'redis'
+#require 'newrelic_rpm'
 
 #Models
 Dir[File.expand_path('models/*.rb', File.dirname(__FILE__))].each do |file|
@@ -26,6 +27,8 @@ Mongoid.load!("config/mongoid.yml")
 env = ENV['RACK_ENV'] || :development
 resque_config = YAML.load_file('config/resque.yml')
 Resque.redis = resque_config[env]
+ 
+#config_file 'config/newrelic.yml'
 
 #Redis
 host, port = Setting.settings.resque_server.split(':')
@@ -34,11 +37,12 @@ $redis = Redis.new(:host => host || '127.0.0.1', :port => port || 6379, :thread_
 #Views
 set :views, File.expand_path('../views', __FILE__)
 
-#Helpers
-helpers ApplicationHelper 
+
  
 
-
+class App < Sinatra::Base
+#Helpers
+ helpers ApplicationHelper 
  get '/' do
      @assets = Asset.all.limit(10)   
      asset = @assets.first
@@ -92,5 +96,5 @@ helpers ApplicationHelper
      redirect '/'
   end
    
- 
+ end
  

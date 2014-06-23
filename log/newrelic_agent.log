@@ -1,0 +1,318 @@
+# Logfile created on 2014-06-20 14:56:11 +0800 by logger.rb/31641
+[06/20/14 14:56:11 +0800 hong-laptop (28310)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 14:56:11 +0800 hong-laptop (28310)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 14:56:11 +0800 hong-laptop (28310)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 14:56:12 +0800 hong-laptop (28310)] INFO : Environment: development
+[06/20/14 14:56:12 +0800 hong-laptop (28310)] INFO : No known dispatcher detected.
+[06/20/14 14:56:12 +0800 hong-laptop (28310)] INFO : Application: My Application (Development)
+[06/20/14 14:56:13 +0800 hong-laptop (28310)] INFO : Installing Sinatra instrumentation
+[06/20/14 14:56:13 +0800 hong-laptop (28310)] INFO : Installing Net instrumentation
+[06/20/14 14:56:13 +0800 hong-laptop (28310)] INFO : Installing Resque instrumentation
+[06/20/14 14:56:13 +0800 hong-laptop (28310)] INFO : Installing deferred Rack instrumentation
+[06/20/14 14:56:13 +0800 hong-laptop (28310)] INFO : Finished instrumentation
+[06/20/14 14:56:15 +0800 hong-laptop (28310)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 14:57:06 +0800 hong-laptop (28468)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 14:57:06 +0800 hong-laptop (28468)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 14:57:06 +0800 hong-laptop (28468)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 14:57:06 +0800 hong-laptop (28468)] INFO : Environment: development
+[06/20/14 14:57:06 +0800 hong-laptop (28468)] INFO : No known dispatcher detected.
+[06/20/14 14:57:06 +0800 hong-laptop (28468)] INFO : Application: My Application (Development)
+[06/20/14 14:57:08 +0800 hong-laptop (28468)] INFO : Installing Sinatra instrumentation
+[06/20/14 14:57:08 +0800 hong-laptop (28468)] INFO : Installing Net instrumentation
+[06/20/14 14:57:08 +0800 hong-laptop (28468)] INFO : Installing Resque instrumentation
+[06/20/14 14:57:08 +0800 hong-laptop (28468)] INFO : Installing deferred Rack instrumentation
+[06/20/14 14:57:08 +0800 hong-laptop (28468)] INFO : Finished instrumentation
+[06/20/14 14:57:10 +0800 hong-laptop (28468)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 14:57:17 +0800 hong-laptop (28468)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 14:58:06 +0800 hong-laptop (28649)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 14:58:06 +0800 hong-laptop (28649)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 14:58:06 +0800 hong-laptop (28649)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 14:58:06 +0800 hong-laptop (28649)] INFO : Environment: development
+[06/20/14 14:58:06 +0800 hong-laptop (28649)] INFO : No known dispatcher detected.
+[06/20/14 14:58:06 +0800 hong-laptop (28649)] INFO : Application: My Application (Development)
+[06/20/14 14:58:08 +0800 hong-laptop (28649)] INFO : Installing Sinatra instrumentation
+[06/20/14 14:58:08 +0800 hong-laptop (28649)] INFO : Installing Net instrumentation
+[06/20/14 14:58:08 +0800 hong-laptop (28649)] INFO : Installing Resque instrumentation
+[06/20/14 14:58:08 +0800 hong-laptop (28649)] INFO : Installing deferred Rack instrumentation
+[06/20/14 14:58:08 +0800 hong-laptop (28649)] INFO : Finished instrumentation
+[06/20/14 14:58:09 +0800 hong-laptop (28649)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 15:08:45 +0800 hong-laptop (30768)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:08:45 +0800 hong-laptop (30768)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:08:45 +0800 hong-laptop (30768)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:08:45 +0800 hong-laptop (30768)] INFO : Environment: development
+[06/20/14 15:08:45 +0800 hong-laptop (30768)] INFO : No known dispatcher detected.
+[06/20/14 15:08:45 +0800 hong-laptop (30768)] INFO : Application: My Application (Development)
+[06/20/14 15:08:46 +0800 hong-laptop (30768)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:08:46 +0800 hong-laptop (30768)] INFO : Installing Net instrumentation
+[06/20/14 15:08:47 +0800 hong-laptop (30768)] INFO : Installing Resque instrumentation
+[06/20/14 15:08:47 +0800 hong-laptop (30768)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:08:47 +0800 hong-laptop (30768)] INFO : Finished instrumentation
+[06/20/14 15:08:49 +0800 hong-laptop (30768)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 15:20:44 +0800 hong-laptop (32689)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:20:44 +0800 hong-laptop (32689)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:20:44 +0800 hong-laptop (32689)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:20:44 +0800 hong-laptop (32689)] INFO : Environment: development
+[06/20/14 15:20:44 +0800 hong-laptop (32689)] INFO : No known dispatcher detected.
+[06/20/14 15:20:44 +0800 hong-laptop (32689)] INFO : Application: My Application (Development)
+[06/20/14 15:20:45 +0800 hong-laptop (32689)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:20:45 +0800 hong-laptop (32689)] INFO : Installing Net instrumentation
+[06/20/14 15:20:45 +0800 hong-laptop (32689)] INFO : Installing Resque instrumentation
+[06/20/14 15:20:45 +0800 hong-laptop (32689)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:20:45 +0800 hong-laptop (32689)] INFO : Finished instrumentation
+[06/20/14 15:20:47 +0800 hong-laptop (32689)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 15:20:52 +0800 hong-laptop (32689)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 15:27:21 +0800 hong-laptop (1440)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:27:21 +0800 hong-laptop (1440)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:27:21 +0800 hong-laptop (1440)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:27:21 +0800 hong-laptop (1440)] INFO : Environment: development
+[06/20/14 15:27:21 +0800 hong-laptop (1440)] INFO : No known dispatcher detected.
+[06/20/14 15:27:21 +0800 hong-laptop (1440)] INFO : Application: My Application (Development)
+[06/20/14 15:27:22 +0800 hong-laptop (1440)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:27:22 +0800 hong-laptop (1440)] INFO : Installing Net instrumentation
+[06/20/14 15:27:22 +0800 hong-laptop (1440)] INFO : Installing Resque instrumentation
+[06/20/14 15:27:22 +0800 hong-laptop (1440)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:27:22 +0800 hong-laptop (1440)] INFO : Finished instrumentation
+[06/20/14 15:27:24 +0800 hong-laptop (1440)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 15:27:28 +0800 hong-laptop (1440)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 15:28:23 +0800 hong-laptop (1675)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:28:23 +0800 hong-laptop (1675)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:28:23 +0800 hong-laptop (1675)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:28:23 +0800 hong-laptop (1675)] INFO : Environment: development
+[06/20/14 15:28:23 +0800 hong-laptop (1675)] INFO : No known dispatcher detected.
+[06/20/14 15:28:23 +0800 hong-laptop (1675)] INFO : Application: My Application (Development)
+[06/20/14 15:28:24 +0800 hong-laptop (1675)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:28:24 +0800 hong-laptop (1675)] INFO : Installing Net instrumentation
+[06/20/14 15:28:24 +0800 hong-laptop (1675)] INFO : Installing Resque instrumentation
+[06/20/14 15:28:24 +0800 hong-laptop (1675)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:28:24 +0800 hong-laptop (1675)] INFO : Finished instrumentation
+[06/20/14 15:28:26 +0800 hong-laptop (1675)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 15:28:35 +0800 hong-laptop (1675)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 15:29:03 +0800 hong-laptop (1851)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:29:03 +0800 hong-laptop (1851)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:29:03 +0800 hong-laptop (1851)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:29:03 +0800 hong-laptop (1851)] INFO : Environment: development
+[06/20/14 15:29:03 +0800 hong-laptop (1851)] INFO : No known dispatcher detected.
+[06/20/14 15:29:03 +0800 hong-laptop (1851)] INFO : Application: My Application (Development)
+[06/20/14 15:29:04 +0800 hong-laptop (1851)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:29:04 +0800 hong-laptop (1851)] INFO : Installing Net instrumentation
+[06/20/14 15:29:05 +0800 hong-laptop (1851)] INFO : Installing Resque instrumentation
+[06/20/14 15:29:05 +0800 hong-laptop (1851)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:29:05 +0800 hong-laptop (1851)] INFO : Finished instrumentation
+[06/20/14 15:29:07 +0800 hong-laptop (1851)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 15:32:30 +0800 hong-laptop (2408)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:32:30 +0800 hong-laptop (2408)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:32:30 +0800 hong-laptop (2408)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:32:30 +0800 hong-laptop (2408)] INFO : Environment: development
+[06/20/14 15:32:30 +0800 hong-laptop (2408)] INFO : No known dispatcher detected.
+[06/20/14 15:32:30 +0800 hong-laptop (2408)] INFO : Application: My Application (Development)
+[06/20/14 15:32:31 +0800 hong-laptop (2408)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:32:31 +0800 hong-laptop (2408)] INFO : Installing Net instrumentation
+[06/20/14 15:32:31 +0800 hong-laptop (2408)] INFO : Installing Resque instrumentation
+[06/20/14 15:32:31 +0800 hong-laptop (2408)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:32:31 +0800 hong-laptop (2408)] INFO : Finished instrumentation
+[06/20/14 15:34:34 +0800 hong-laptop (2745)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:34:34 +0800 hong-laptop (2745)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:34:34 +0800 hong-laptop (2745)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:34:34 +0800 hong-laptop (2745)] INFO : Environment: development
+[06/20/14 15:34:34 +0800 hong-laptop (2745)] INFO : No known dispatcher detected.
+[06/20/14 15:34:34 +0800 hong-laptop (2745)] INFO : Application: My Application (Development)
+[06/20/14 15:34:35 +0800 hong-laptop (2745)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:34:35 +0800 hong-laptop (2745)] INFO : Installing Net instrumentation
+[06/20/14 15:34:35 +0800 hong-laptop (2745)] INFO : Installing Resque instrumentation
+[06/20/14 15:34:35 +0800 hong-laptop (2745)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:34:35 +0800 hong-laptop (2745)] INFO : Finished instrumentation
+[06/20/14 15:35:04 +0800 hong-laptop (2834)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:35:04 +0800 hong-laptop (2834)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:35:04 +0800 hong-laptop (2834)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:35:04 +0800 hong-laptop (2834)] INFO : Environment: development
+[06/20/14 15:35:04 +0800 hong-laptop (2834)] INFO : No known dispatcher detected.
+[06/20/14 15:35:04 +0800 hong-laptop (2834)] INFO : Application: My Application (Development)
+[06/20/14 15:35:05 +0800 hong-laptop (2834)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:35:05 +0800 hong-laptop (2834)] INFO : Installing Net instrumentation
+[06/20/14 15:35:05 +0800 hong-laptop (2834)] INFO : Installing Resque instrumentation
+[06/20/14 15:35:05 +0800 hong-laptop (2834)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:35:05 +0800 hong-laptop (2834)] INFO : Finished instrumentation
+[06/20/14 15:35:06 +0800 hong-laptop (2834)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 15:35:26 +0800 hong-laptop (2902)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:35:26 +0800 hong-laptop (2902)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:35:26 +0800 hong-laptop (2902)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:35:26 +0800 hong-laptop (2902)] INFO : Environment: development
+[06/20/14 15:35:26 +0800 hong-laptop (2902)] INFO : No known dispatcher detected.
+[06/20/14 15:35:26 +0800 hong-laptop (2902)] INFO : Application: My Application (Development)
+[06/20/14 15:35:27 +0800 hong-laptop (2902)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:35:27 +0800 hong-laptop (2902)] INFO : Installing Net instrumentation
+[06/20/14 15:35:27 +0800 hong-laptop (2902)] INFO : Installing Resque instrumentation
+[06/20/14 15:35:27 +0800 hong-laptop (2902)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:35:27 +0800 hong-laptop (2902)] INFO : Finished instrumentation
+[06/20/14 15:39:20 +0800 hong-laptop (3578)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:39:20 +0800 hong-laptop (3578)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:39:20 +0800 hong-laptop (3578)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:39:20 +0800 hong-laptop (3578)] INFO : Environment: development
+[06/20/14 15:39:20 +0800 hong-laptop (3578)] INFO : No known dispatcher detected.
+[06/20/14 15:39:20 +0800 hong-laptop (3578)] INFO : Application: My Application (Development)
+[06/20/14 15:39:21 +0800 hong-laptop (3578)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:39:21 +0800 hong-laptop (3578)] INFO : Installing Net instrumentation
+[06/20/14 15:39:21 +0800 hong-laptop (3578)] INFO : Installing Resque instrumentation
+[06/20/14 15:39:21 +0800 hong-laptop (3578)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:39:21 +0800 hong-laptop (3578)] INFO : Finished instrumentation
+[06/20/14 15:39:38 +0800 hong-laptop (3616)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:39:38 +0800 hong-laptop (3616)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:39:38 +0800 hong-laptop (3616)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:39:38 +0800 hong-laptop (3616)] INFO : Environment: development
+[06/20/14 15:39:38 +0800 hong-laptop (3616)] INFO : No known dispatcher detected.
+[06/20/14 15:39:38 +0800 hong-laptop (3616)] INFO : Application: My Application (Development)
+[06/20/14 15:39:39 +0800 hong-laptop (3616)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:39:39 +0800 hong-laptop (3616)] INFO : Installing Net instrumentation
+[06/20/14 15:39:39 +0800 hong-laptop (3616)] INFO : Installing Resque instrumentation
+[06/20/14 15:39:39 +0800 hong-laptop (3616)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:39:39 +0800 hong-laptop (3616)] INFO : Finished instrumentation
+[06/20/14 15:40:15 +0800 hong-laptop (3735)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:40:15 +0800 hong-laptop (3735)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:40:15 +0800 hong-laptop (3735)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:40:15 +0800 hong-laptop (3735)] INFO : Environment: development
+[06/20/14 15:40:15 +0800 hong-laptop (3735)] INFO : No known dispatcher detected.
+[06/20/14 15:40:15 +0800 hong-laptop (3735)] INFO : Application: My Application (Development)
+[06/20/14 15:40:16 +0800 hong-laptop (3735)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:40:16 +0800 hong-laptop (3735)] INFO : Installing Net instrumentation
+[06/20/14 15:40:16 +0800 hong-laptop (3735)] INFO : Installing Resque instrumentation
+[06/20/14 15:40:16 +0800 hong-laptop (3735)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:40:16 +0800 hong-laptop (3735)] INFO : Finished instrumentation
+[06/20/14 15:40:32 +0800 hong-laptop (3773)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:40:32 +0800 hong-laptop (3773)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:40:32 +0800 hong-laptop (3773)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:40:32 +0800 hong-laptop (3773)] INFO : Environment: development
+[06/20/14 15:40:32 +0800 hong-laptop (3773)] INFO : No known dispatcher detected.
+[06/20/14 15:40:32 +0800 hong-laptop (3773)] INFO : Application: My Application (Development)
+[06/20/14 15:40:33 +0800 hong-laptop (3773)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:40:33 +0800 hong-laptop (3773)] INFO : Installing Net instrumentation
+[06/20/14 15:40:33 +0800 hong-laptop (3773)] INFO : Installing Resque instrumentation
+[06/20/14 15:40:33 +0800 hong-laptop (3773)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:40:33 +0800 hong-laptop (3773)] INFO : Finished instrumentation
+[06/20/14 15:46:47 +0800 hong-laptop (4769)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:46:47 +0800 hong-laptop (4769)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:46:47 +0800 hong-laptop (4769)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:46:47 +0800 hong-laptop (4769)] INFO : Environment: development
+[06/20/14 15:46:47 +0800 hong-laptop (4769)] INFO : No known dispatcher detected.
+[06/20/14 15:46:47 +0800 hong-laptop (4769)] INFO : Application: My Application (Development)
+[06/20/14 15:46:48 +0800 hong-laptop (4769)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:46:48 +0800 hong-laptop (4769)] INFO : Installing Net instrumentation
+[06/20/14 15:46:48 +0800 hong-laptop (4769)] INFO : Installing Resque instrumentation
+[06/20/14 15:46:48 +0800 hong-laptop (4769)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:46:48 +0800 hong-laptop (4769)] INFO : Finished instrumentation
+[06/20/14 15:47:51 +0800 hong-laptop (4944)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:47:51 +0800 hong-laptop (4944)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:47:51 +0800 hong-laptop (4944)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:47:51 +0800 hong-laptop (4944)] INFO : Environment: development
+[06/20/14 15:47:51 +0800 hong-laptop (4944)] INFO : No known dispatcher detected.
+[06/20/14 15:47:51 +0800 hong-laptop (4944)] INFO : Application: My Application (Development)
+[06/20/14 15:47:52 +0800 hong-laptop (4944)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:47:52 +0800 hong-laptop (4944)] INFO : Installing Net instrumentation
+[06/20/14 15:47:52 +0800 hong-laptop (4944)] INFO : Installing Resque instrumentation
+[06/20/14 15:47:52 +0800 hong-laptop (4944)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:47:52 +0800 hong-laptop (4944)] INFO : Finished instrumentation
+[06/20/14 15:47:53 +0800 hong-laptop (4944)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 15:47:54 +0800 hong-laptop (4944)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 15:51:13 +0800 hong-laptop (5502)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:51:13 +0800 hong-laptop (5502)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:51:13 +0800 hong-laptop (5502)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:51:13 +0800 hong-laptop (5502)] INFO : Environment: development
+[06/20/14 15:51:13 +0800 hong-laptop (5502)] INFO : No known dispatcher detected.
+[06/20/14 15:51:13 +0800 hong-laptop (5502)] INFO : Application: My Application (Development)
+[06/20/14 15:51:14 +0800 hong-laptop (5502)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:51:14 +0800 hong-laptop (5502)] INFO : Installing Net instrumentation
+[06/20/14 15:51:14 +0800 hong-laptop (5502)] INFO : Installing Resque instrumentation
+[06/20/14 15:51:14 +0800 hong-laptop (5502)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:51:14 +0800 hong-laptop (5502)] INFO : Finished instrumentation
+[06/20/14 15:51:15 +0800 hong-laptop (5502)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 15:51:15 +0800 hong-laptop (5502)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 15:55:04 +0800 hong-laptop (6161)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:55:04 +0800 hong-laptop (6161)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:55:04 +0800 hong-laptop (6161)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:55:04 +0800 hong-laptop (6161)] INFO : Environment: development
+[06/20/14 15:55:04 +0800 hong-laptop (6161)] INFO : No known dispatcher detected.
+[06/20/14 15:55:04 +0800 hong-laptop (6161)] INFO : Application: My Application (Development)
+[06/20/14 15:55:05 +0800 hong-laptop (6161)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:55:05 +0800 hong-laptop (6161)] INFO : Installing Net instrumentation
+[06/20/14 15:55:05 +0800 hong-laptop (6161)] INFO : Installing Resque instrumentation
+[06/20/14 15:55:05 +0800 hong-laptop (6161)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:55:05 +0800 hong-laptop (6161)] INFO : Finished instrumentation
+[06/20/14 15:55:05 +0800 hong-laptop (6161)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 15:55:31 +0800 hong-laptop (6264)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:55:31 +0800 hong-laptop (6264)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:55:31 +0800 hong-laptop (6264)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:55:31 +0800 hong-laptop (6264)] INFO : Environment: development
+[06/20/14 15:55:31 +0800 hong-laptop (6264)] INFO : No known dispatcher detected.
+[06/20/14 15:55:31 +0800 hong-laptop (6264)] INFO : Application: My Application (Development)
+[06/20/14 15:55:32 +0800 hong-laptop (6264)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:55:32 +0800 hong-laptop (6264)] INFO : Installing Net instrumentation
+[06/20/14 15:55:32 +0800 hong-laptop (6264)] INFO : Installing Resque instrumentation
+[06/20/14 15:55:32 +0800 hong-laptop (6264)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:55:32 +0800 hong-laptop (6264)] INFO : Finished instrumentation
+[06/20/14 15:55:32 +0800 hong-laptop (6264)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : Environment: development
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : No known dispatcher detected.
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : Application: My Application (Development)
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : Installing Sinatra instrumentation
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : Installing Net instrumentation
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : Installing Resque instrumentation
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : Installing deferred Rack instrumentation
+[06/20/14 15:57:54 +0800 hong-laptop (6656)] INFO : Finished instrumentation
+[06/20/14 16:19:46 +0800 hong-laptop (10222)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 16:19:46 +0800 hong-laptop (10222)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 16:19:46 +0800 hong-laptop (10222)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 16:19:46 +0800 hong-laptop (10222)] INFO : Environment: development
+[06/20/14 16:19:46 +0800 hong-laptop (10222)] INFO : No known dispatcher detected.
+[06/20/14 16:19:46 +0800 hong-laptop (10222)] INFO : Application: My Application (Development)
+[06/20/14 16:19:46 +0800 hong-laptop (10222)] INFO : Installing Net instrumentation
+[06/20/14 16:19:46 +0800 hong-laptop (10222)] INFO : Installing deferred Rack instrumentation
+[06/20/14 16:19:46 +0800 hong-laptop (10222)] INFO : Finished instrumentation
+[06/20/14 16:19:49 +0800 hong-laptop (10222)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 16:19:51 +0800 hong-laptop (10222)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 16:19:51 +0800 hong-laptop (10222)] INFO : Installing Sinatra instrumentation
+[06/20/14 16:19:51 +0800 hong-laptop (10222)] INFO : Installing Resque instrumentation
+[06/20/14 16:27:19 +0800 hong-laptop (10222)] INFO : Starting Agent shutdown
+[06/20/14 16:27:23 +0800 hong-laptop (11492)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 16:27:23 +0800 hong-laptop (11492)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 16:27:23 +0800 hong-laptop (11492)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 16:27:23 +0800 hong-laptop (11492)] INFO : Environment: development
+[06/20/14 16:27:23 +0800 hong-laptop (11492)] INFO : No known dispatcher detected.
+[06/20/14 16:27:23 +0800 hong-laptop (11492)] INFO : Application: My Application (Development)
+[06/20/14 16:27:23 +0800 hong-laptop (11492)] INFO : Installing Net instrumentation
+[06/20/14 16:27:23 +0800 hong-laptop (11492)] INFO : Installing deferred Rack instrumentation
+[06/20/14 16:27:23 +0800 hong-laptop (11492)] INFO : Finished instrumentation
+[06/20/14 16:27:26 +0800 hong-laptop (11492)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 16:27:28 +0800 hong-laptop (11492)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 16:27:28 +0800 hong-laptop (11492)] INFO : Installing Sinatra instrumentation
+[06/20/14 16:27:28 +0800 hong-laptop (11492)] INFO : Installing Resque instrumentation
+[06/20/14 16:27:28 +0800 hong-laptop (11492)] INFO : Starting Agent shutdown
+[06/20/14 16:29:14 +0800 hong-laptop (11809)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 16:29:14 +0800 hong-laptop (11809)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 16:29:14 +0800 hong-laptop (11809)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 16:29:14 +0800 hong-laptop (11809)] INFO : Environment: development
+[06/20/14 16:29:14 +0800 hong-laptop (11809)] INFO : No known dispatcher detected.
+[06/20/14 16:29:14 +0800 hong-laptop (11809)] INFO : Application: My Application (Development)
+[06/20/14 16:29:14 +0800 hong-laptop (11809)] INFO : Installing Net instrumentation
+[06/20/14 16:29:14 +0800 hong-laptop (11809)] INFO : Installing deferred Rack instrumentation
+[06/20/14 16:29:14 +0800 hong-laptop (11809)] INFO : Finished instrumentation
+[06/20/14 16:29:18 +0800 hong-laptop (11809)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 16:29:19 +0800 hong-laptop (11809)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 16:29:19 +0800 hong-laptop (11809)] INFO : Installing Sinatra instrumentation
+[06/20/14 16:29:19 +0800 hong-laptop (11809)] INFO : Installing Resque instrumentation
+[06/20/14 16:29:43 +0800 hong-laptop (11809)] INFO : Starting Agent shutdown
+[06/20/14 16:29:47 +0800 hong-laptop (11907)] INFO : Starting the New Relic agent in "development" environment.
+[06/20/14 16:29:47 +0800 hong-laptop (11907)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/20/14 16:29:47 +0800 hong-laptop (11907)] INFO : Reading configuration from config/newrelic.yml
+[06/20/14 16:29:47 +0800 hong-laptop (11907)] INFO : Environment: development
+[06/20/14 16:29:47 +0800 hong-laptop (11907)] INFO : No known dispatcher detected.
+[06/20/14 16:29:47 +0800 hong-laptop (11907)] INFO : Application: My Application (Development)
+[06/20/14 16:29:48 +0800 hong-laptop (11907)] INFO : Installing Net instrumentation
+[06/20/14 16:29:48 +0800 hong-laptop (11907)] INFO : Installing deferred Rack instrumentation
+[06/20/14 16:29:48 +0800 hong-laptop (11907)] INFO : Finished instrumentation
+[06/20/14 16:29:50 +0800 hong-laptop (11907)] INFO : Reporting to: https://rpm.newrelic.com/accounts/704621/applications/3279565
+[06/20/14 16:29:53 +0800 hong-laptop (11907)] INFO : Doing deferred dependency-detection before Rack startup
+[06/20/14 16:29:53 +0800 hong-laptop (11907)] INFO : Installing Sinatra instrumentation
+[06/20/14 16:29:53 +0800 hong-laptop (11907)] INFO : Installing Resque instrumentation
+[06/20/14 17:34:32 +0800 hong-laptop (11907)] INFO : Starting Agent shutdown

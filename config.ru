@@ -1,6 +1,11 @@
-require "rubygems"
-#require "sinatra"
-
+require 'newrelic_rpm'
 require './app.rb'
-run Sinatra::Application
-#run ApplicationController
+
+require 'new_relic/rack/developer_mode'
+
+use NewRelic::Rack::DeveloperMode
+
+run App.new
+ 
+
+

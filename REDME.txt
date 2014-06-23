@@ -1,3 +1,5 @@
+rackup -p 3000
+
 resque work:
 bundle exec resque work -q upload -r ./job.rb 
 start_resque:   god -c bin/resque_asset.god
